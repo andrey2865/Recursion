@@ -18,6 +18,7 @@ double S(int n, int x) {
 int main() {
 	int n, x;
 	cin >> n >> x;
-	cout << S(n, x) << endl;
+	cout << "n= " << n << " x= " << x << endl;
+	cout <<"S= " << S(n, x) << endl;
 	system("pause");
 }
